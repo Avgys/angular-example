@@ -1,5 +1,9 @@
 <h3>Cart</h3>
-<span>{{items.length}}</span>
+
+<p>
+  <a routeLink="/shipping">Shipping costs</a>
+</p>
+
 <div *ngFor="let elem of items">
   <h3 class="cart-item">
     <span>{{ elem.name }} </span>
